@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import initialState from '../initialState';
+import initialState from './InitialState';
 
 const useInitialState = () => {
   const [state, setState] = useState(initialState);

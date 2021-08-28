@@ -6,7 +6,7 @@ import '../styles/components/Checkout.css';
 const Checkout = () => {
   const {pathname} =useLocation()
   const {state: {cart}, removeFromCart} = useContext(AppContext);
-  console.log(cart)
+  
   
   const hanledRemove = product =>{
     removeFromCart(product);
